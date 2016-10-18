@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project name="mrddx" default="sshexec" basedir=".">
+	<property name="version" value="2.3.0" />
+ 	<property name="destFile" value="${ant.project.name}-${version}.jar" />
+	<property name="src" location="./src" />
+	<property name="classes.dir" location="./bin" />
+	<property name="release.dir" location="./release" />
+	<property name="lib.dir" location="../libs/mrddx" />
+	<property name="hadoop2.6.0" location="../libs/hadoop2.6.0" />
+	<property name="hbase0.98.9_hive0.14.0" location="../libs/hbase0.98.9_hive0.14.0" />
+	<property name="mrddx_home" location="../libs/mrddx" />
+	<property name="main-class" value="com.ery.hadoop.mrddx.example.jdbc.DBRequestJob" />
+	
+	<path id="project.classpath">
+		<fileset dir="${hbase0.98.9_hive0.14.0}">
+		    <include name="*.jar" />
+		</fileset>
+		<fileset dir="${hadoop2.6.0}">
+			<include name="*.jar" />
+		</fileset>
+		<fileset dir="${mrddx_home}">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+
+	<!-- generate directory -->
+	<target name="init" depends="clean">
+		<tstamp />
+		<mkdir dir="${classes.dir}" />
+		<mkdir dir="${release.dir}" />
+	</target>
+
+	<!-- compile java -->
+	<target name="compile" depends="init">
+		<javac srcdir="${src}" destdir="${classes.dir}"  debuglevel="lines, vars, source" includeantruntime="no">
+			<compilerarg  line="-encoding UTF-8"/>
+			<!-- 给编译器指定编码，防止出现："警告： 编码 GBK 的不可映射字符"-->
+			<classpath refid="project.classpath" />
+		</javac>
+		<!-- 
+		<copy todir="${classes.dir}">
+			<fileset dir="hadoop-1.1.1-conf">
+			</fileset>
+		</copy>
+		-->
+		<copy todir="${classes.dir}" file="./src/mrddx.properties"/>
+ 	</target>
+
+
+		
+	<!-- jar -->
+	<target name="release" depends="compile">
+		<mkdir dir="${release.dir}" />
+<!--
+		<copy todir="${classes.dir}/lib">
+			<fileset dir="${hbase0.98.9_hive0.14.0}">
+				<include name="*.jar" />
+			</fileset>
+			<fileset dir="${mrddx_home}">
+				<include name="*.jar" />
+			</fileset>
+		</copy>
+-->
+		<unjar dest="${classes.dir}" overwrite="false" >
+			<fileset dir="${mrddx_home}">
+				<include name="DbSupport-*.jar" />
+				<include name="druid-*.jar" />
+				<include name="edtftpj-*.jar" />
+				<include name="ftpTool*.jar" />
+				<include name="license*.jar" />
+			</fileset>
+		</unjar>
+
+		<jar jarfile="${release.dir}/${destFile}" basedir="${classes.dir}">
+			<manifest>
+				<attribute name="Built-By" value="hadoop" />
+				<attribute name="Main-Class" value="${main-class}" />
+			</manifest>
+		</jar>
+	</target>
+
+	<!-- run 
+	<target name="run" depends="release">
+		<java classpath="${classes.dir}" classname="${main_class}">
+			<classpath refid="project.classpath" />
+			<classpath refid="${classes.dir}" />
+		</java>
+	</target>
+	-->
+	
+
+	
+   <!-- clean -->
+    <target name="clean">
+    	<delete dir="${classes.dir}"  />
+    	<delete file="${release.dir}/${destFile}" />
+    	<!--   <delete dir="${release}" /> -->
+        <echo message="clean dir"></echo>
+    </target>
+	
+	
+	<!-- jar -->
+		<target name="comJar"  >
+			<mkdir dir="${release.dir}" />
+			 <delete>
+				<fileset dir="${release.dir}">
+				    <exclude name="mrddx-*"/>
+				</fileset>
+			</delete>
+			<copy todir="${release.dir}" overwrite="true">
+				<fileset dir="${classes.dir}">
+ 				</fileset>
+			</copy>
+		
+			<unjar dest="${release.dir}" overwrite="true" >
+				<fileset dir="${mrddx_home}">
+					<include name="DbSupport-*.jar" />
+					<include name="druid-*.jar" />
+					<include name="edtftpj-*.jar" />
+					<include name="ftpTool*.jar" />
+					<include name="license*.jar" />
+				</fileset>
+			</unjar>
+			<!-- 	-->
+			<delete file="${release.dir}/${destFile}"></delete>
+			<jar jarfile="${release.dir}/${destFile}" basedir="${release.dir}" excludes="mrddx-*">
+				<manifest>
+					<attribute name="Built-By" value="hans" />
+					<attribute name="Main-Class" value="${main-class}" />
+				</manifest>
+			</jar>
+			<!-- 	
+			 <delete>
+				<fileset dir="${release.dir}">
+				    <exclude name="mrddx-*"/>
+				</fileset>
+			</delete>
+			-->
+		</target>
+	<!-- sftp -->
+	<target name="sshexec" depends="comJar">
+		<sshexec host="133.37.31.51" username="es" password="es23@abcd"  trust="true" command="rm -rf /app/es/app/mrddx/mrddx*.jar" />
+		<scp  password="es23@abcd" todir="es@133.37.31.51:/app/es/app/mrddx" trust="true">
+			<!--  <fileset dir="${release}" /> -->
+			<fileset file="${release.dir}/${destFile}" />
+			<fileset file="${release.dir}/mrddx.properties" />
+		</scp>
+		<sshexec host="133.37.31.51" username="es" password="es23@abcd" trust="true" command="ls -l /app/es/app/mrddx" />
+	</target>
+</project>
+
