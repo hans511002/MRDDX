@@ -34,9 +34,9 @@ import com.ery.hadoop.mrddx.log.MRLog;
 /**
  * Hive输入格式
  * 
- * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
- *             reserved.
- * @author wanghao
+
+
+
  * @createDate 2013-1-18
  * @version v1.0
  * @param <T>
@@ -167,9 +167,9 @@ public class HiveInputFormat<T extends DBWritable> extends InputFormat<LongWrita
 	/**
 	 * Hive的拆分类
 	 * 
-	 * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
-	 *             reserved.
-	 * @author wanghao
+
+
+
 	 * @createDate 2013-1-18
 	 * @version v1.0
 	 */

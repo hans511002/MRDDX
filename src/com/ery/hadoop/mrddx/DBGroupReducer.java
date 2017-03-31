@@ -13,10 +13,10 @@ import com.ery.hadoop.mrddx.hive.HiveConfiguration;
 import com.ery.hadoop.mrddx.util.StringUtil;
 
 /**
- * Map产生的中间结果合并处理类 Copyrights @ 2012,Tianyuan DIC Information Co.,Ltd. All
- * rights reserved.
+
+
  * 
- * @author wanghao
+
  * @version v1.0
  * @create Data 2013-1-9
  */

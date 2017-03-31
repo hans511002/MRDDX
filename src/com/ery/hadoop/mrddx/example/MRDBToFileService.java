@@ -26,11 +26,11 @@ import com.ery.hadoop.mrddx.log.MRLog;
 import com.ery.hadoop.mrddx.util.HDFSUtils;
 
 /**
- * Copyrights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights reserved.
+
  * 
- * @Project tydic hadoop
+
  * @Comments 数据库(mysql,oracle) 到文件
- * @author wanghao
+
  * @version v1.0
  * @create Data 2013-1-7
  */

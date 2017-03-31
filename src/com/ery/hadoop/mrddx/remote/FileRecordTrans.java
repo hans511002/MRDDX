@@ -42,7 +42,7 @@ import com.ery.hadoop.mrddx.util.HDFSUtils;
 import com.ery.hadoop.mrddx.util.StringUtil;
 
 /**
- * @author Administrator
+
  * 
  */
 public class FileRecordTrans implements Configurable {

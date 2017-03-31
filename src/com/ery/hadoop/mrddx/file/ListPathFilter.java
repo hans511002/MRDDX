@@ -11,10 +11,10 @@ import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.fs.PathFilter;
 
 /**
- * 多文件过滤器类 Copyrights @ 2012,Tianyuan DIC Information Co.,Ltd. All rights
- * reserved.
+
+
  * 
- * @author wanghao
+
  * @version v1.0
  */
 public class ListPathFilter implements PathFilter, Configurable {

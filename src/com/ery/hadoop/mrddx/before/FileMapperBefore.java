@@ -13,7 +13,7 @@ import com.ery.hadoop.mrddx.log.MRLog;
 /**
  * 在处理文件之前的预处理操作
  * 
- * @author wanghao
+ * 
  * 
  */
 public class FileMapperBefore implements IDBMRBefore {

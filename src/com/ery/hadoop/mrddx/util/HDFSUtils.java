@@ -42,9 +42,9 @@ import com.ery.hadoop.mrddx.remote.FileAttributePO;
 /**
  * 文件系统工具类
  * 
- * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
- *             reserved.
- * @author wanghao
+
+
+
  * @createDate 2013-1-9
  * @version v1.0
  */
@@ -611,10 +611,10 @@ public class HDFSUtils {
 	}
 
 	/**
-	 * 文件压缩标识符 Copyrights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All
-	 * rights reserved.
+
+
 	 * 
-	 * @author wanghao
+
 	 * @version v1.0
 	 * @create Data 2013-1-14
 	 */
@@ -623,10 +623,10 @@ public class HDFSUtils {
 	}
 
 	/**
-	 * 文件类型 Copyrights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
-	 * reserved.
+
+
 	 * 
-	 * @author wanghao
+
 	 * @version v1.0
 	 * @create Data 2013-1-14
 	 */

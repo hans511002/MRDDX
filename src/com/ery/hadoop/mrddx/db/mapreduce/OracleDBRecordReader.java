@@ -19,13 +19,13 @@ import com.ery.hadoop.mrddx.log.MRLog;
 
 /**
  * 
- * Copyrights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights reserved.
+
  * 
- * @Project tydic hadoop
+
  * @Comments 
  *           从Oracle数据库中读取表记录的RecordReader对象。key类型是LongWritables,value类型是DBWritables
  *           。
- * @author wanghao
+
  * @version v1.0
  * @create Data 2013-1-7
  * 

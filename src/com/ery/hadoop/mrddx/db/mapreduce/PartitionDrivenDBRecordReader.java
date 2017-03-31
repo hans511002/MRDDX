@@ -14,11 +14,11 @@ import com.ery.hadoop.mrddx.db.DBRecordReader;
 import com.ery.hadoop.mrddx.log.MRLog;
 
 /**
- * Copyrights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights reserved.
+
  * 
- * @Project tydic hadoop
+
  * @Comments 运用数据类型驱动(Data-Driver)的拆分RecoordReader的实现类
- * @author wanghao
+
  * @version v1.0
  * @create Data 2013-1-9
  * @param <T> key:LongWritables value:DBWritables

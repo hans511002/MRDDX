@@ -25,10 +25,10 @@ import com.ery.hadoop.mrddx.hive.HiveOutputFormat;
 import com.ery.hadoop.mrddx.util.HDFSUtils;
 
 /**
- * 从文件到Hive的MRService Copyrights @ 2012,Tianyuan DIC Information Co.,Ltd. All
- * rights reserved.
+
+
  * 
- * @author wanghao
+
  * @version v1.0
  */
 public class MRFileToHiveService extends MRTestJOBService {

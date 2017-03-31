@@ -45,9 +45,9 @@ import com.ery.hadoop.mrddx.zk.MRFileZookeeper;
 /**
  * 文件的输入格式
  * 
- * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
- *             reserved.
- * @author wanghao
+
+
+
  * @createDate 2013-1-10
  * @version v1.0
  */

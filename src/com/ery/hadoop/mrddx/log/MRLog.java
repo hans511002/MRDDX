@@ -20,9 +20,9 @@ import com.ery.hadoop.mrddx.util.StringUtil;
 /**
  * 日志工具类
  * 
- * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
- *             reserved.
- * @author wanghao
+
+
+
  * @createDate 2013-2-4
  * @version v1.0
  */

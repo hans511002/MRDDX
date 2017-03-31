@@ -19,11 +19,11 @@ import com.ery.hadoop.mrddx.util.StringUtil;
 
 /**
  * 
- * Copyrights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights reserved.
+
  * 
- * @Project tydic hadoop
+
  * @Comments 针对ORACLE的数据类型驱动拆分InputFormat类
- * @author wanghao
+
  * @version v1.0
  * @create Data 2013-1-9
  * 

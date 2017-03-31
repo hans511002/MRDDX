@@ -17,9 +17,9 @@ import org.apache.hadoop.util.ReflectionUtils;
 /**
  * 读取RCFile格式文件
  * 
- * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
- *             reserved.
- * @author wanghao
+
+
+
  * @createDate 2013-1-11
  * @version v1.0
  * @param <K>

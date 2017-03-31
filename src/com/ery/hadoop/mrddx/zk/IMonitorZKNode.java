@@ -7,9 +7,9 @@ import org.apache.zookeeper.KeeperException;
 /**
  * 监听Zookeeper Node接口
  * 
- * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
- *             reserved.
- * @author wanghao
+
+
+
  * @createDate 2013-1-30
  * @version v1.0
  */

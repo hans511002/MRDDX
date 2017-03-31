@@ -12,9 +12,9 @@ import com.ery.base.support.utils.MapUtils;
  * 实现MR的高级应用接口类，反转数据 ; 结果为String类型 语法规则：{phone}:reverse
  * 语法规则：reverse:{phone}:{name}:{time}
  * 
- * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
- *             reserved.
- * @author wangpengkun
+
+
+
  * @createDate 2013-11-20
  * @version v1.0
  */

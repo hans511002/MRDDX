@@ -18,7 +18,7 @@ package com.ery.hadoop.mrddx.util;
 /**
  * (created at 2010-7-21)
  * 
- * @author <a href="mailto:shuo.qius@alibaba-inc.com">QIU Shuo</a>
+
  */
 public final class Pair<K, V> {
 

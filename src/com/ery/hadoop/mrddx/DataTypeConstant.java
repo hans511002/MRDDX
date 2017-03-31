@@ -3,7 +3,6 @@ package com.ery.hadoop.mrddx;
 /**
  * 数据类型
  * 
- * @author wanghao
  */
 public interface DataTypeConstant {
 	/**

@@ -34,9 +34,9 @@ import com.ery.hadoop.mrddx.db.mapreduce.FileWritable;
 /**
  * Hive针对Sequenc文件的输出格式
  * 
- * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
- *             reserved.
- * @author wanghao
+
+
+
  * @createDate 2013-1-29
  * @version v1.0
  * @param <K>

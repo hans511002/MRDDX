@@ -11,8 +11,8 @@ import org.apache.hadoop.hbase.util.Bytes;
 /**
  * HSingleColumnValue 过滤对象
  * 
- * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights reserved.
- * @author wanghao
+
+
  * @createDate 2013-1-29
  * @version v1.0
  */

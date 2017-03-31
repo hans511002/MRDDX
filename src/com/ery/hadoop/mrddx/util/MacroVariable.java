@@ -11,7 +11,7 @@ import java.util.Date;
  * N_YYYYMMDDN 当前时间的后一天-年月日(八位) N_YYYYMMN 当前时间的下一个月-年月(六位) N_YYYYMMDDP
  * 当前时间的前一天-年月日(八位)
  * 
- * @author wanghao
+
  * 
  */
 public class MacroVariable {

@@ -15,7 +15,7 @@ import com.ery.hadoop.mrddx.log.MRLog;
 /**
  * sd-{fdsa}-{fdsa}--{date,yyyy-MM-dd}
  * 
- * @author wanghao
+
  * 
  */
 public class RuleConvert {

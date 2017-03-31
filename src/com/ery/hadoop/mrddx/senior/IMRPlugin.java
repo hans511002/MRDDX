@@ -9,7 +9,7 @@ import org.apache.hadoop.mapreduce.TaskInputOutputContext;
 /**
  * 插件接口
  * 
- * @author wanghao
+
  * 
  */
 public abstract class IMRPlugin {

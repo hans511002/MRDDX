@@ -26,11 +26,11 @@ import com.ery.hadoop.mrddx.hbase.HbaseOutputFormat;
 
 /**
  * 
- * Copyrights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights reserved.
+
  * 
- * @Project tydic hadoop
+
  * @Comments
- * @author wanghao
+
  * @version v1.0
  * @create Data 2012-12-31
  * 

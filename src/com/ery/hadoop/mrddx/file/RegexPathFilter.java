@@ -11,9 +11,9 @@ import org.apache.hadoop.fs.PathFilter;
 /**
  * 正则表达式过滤器
  * 
- * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
- *             reserved.
- * @author wanghao
+
+
+
  * @createDate 2013-1-14
  * @version v1.0
  */

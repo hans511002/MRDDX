@@ -8,9 +8,9 @@ import com.ery.hadoop.mrddx.util.HDFSUtils.CompressCodec;
 /**
  * 与文件(输入和输出)有关的配置信息
  * 
- * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
- *             reserved.
- * @author wanghao
+
+
+
  * @createDate 2013-2-21
  * @version v1.0
  */

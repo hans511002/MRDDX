@@ -16,9 +16,9 @@ import org.apache.hadoop.mapreduce.InputSplit;
  * data-type of the column, this requires different behavior. DBSplitter
  * implementations should perform this for a data type or family of data types.
  * 
- * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
- *             reserved.
- * @author wanghao
+
+
+
  * @createDate 2013-1-7
  * @version v1.0
  */

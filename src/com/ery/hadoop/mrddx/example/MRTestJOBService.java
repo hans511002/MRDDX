@@ -15,10 +15,10 @@ import com.ery.hadoop.mrddx.log.MRLog;
 import com.ery.hadoop.mrddx.util.HDFSUtils.FileType;
 
 /**
- * 服务抽象类 Copyrights @ 2012,Tianyuan DIC Information Co.,Ltd. All rights
- * reserved.
+
+
  * 
- * @author wanghao
+
  * @version v1.0
  */
 public class MRTestJOBService {

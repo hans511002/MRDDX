@@ -44,9 +44,9 @@ import com.ery.hadoop.mrddx.vertica.VerticaOutputFormat;
 /**
  * 系统配置对象父类
  * 
- * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
- *             reserved.
- * @author wanghao
+
+
+
  * @createDate 2013-1-2
  * @version v1.0
  */

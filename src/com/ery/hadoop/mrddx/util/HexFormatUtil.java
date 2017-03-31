@@ -16,7 +16,7 @@
 package com.ery.hadoop.mrddx.util;
 
 /**
- * @author xianmao.hexm 2010-9-6
+
  */
 public final class HexFormatUtil {
 

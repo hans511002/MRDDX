@@ -16,9 +16,9 @@ import com.ery.hadoop.mrddx.util.StringUtil;
  * 实现MR的高级应用接口类，字段值替换功能 语法： 
  * replace:{phone}:{filepath}
  * 
- * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
- *             reserved.
- * @author wanghao
+
+
+
  * @createDate 2013-2-18
  * @version v1.0
  */

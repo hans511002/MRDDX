@@ -27,9 +27,9 @@ import com.ery.hadoop.mrddx.util.HDFSUtils;
 /**
  * 文本输出格式
  * 
- * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
- *             reserved.
- * @author wanghao
+
+
+
  * @createDate 2013-1-10
  * @version v1.0
  * @param <K>
@@ -42,9 +42,9 @@ public class TextOutputFormat<K, V> extends FileOutputFormat<K, V> implements IH
 	/**
 	 * 写行记录
 	 * 
-	 * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
-	 *             reserved.
-	 * @author wanghao
+
+
+
 	 * @createDate 2013-1-10
 	 * @version v1.0
 	 * @param <K>

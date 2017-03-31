@@ -33,11 +33,11 @@ import com.ery.hadoop.mrddx.util.StringUtil;
 
 /**
  * 
- * Copyrights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights reserved.
+
  * 
- * @Project tydic hadoop
+
  * @Comments 从表中读取数据的输入格式对象，类似于DBInputFormat，但不是用LIMIT和OFFSET来拆分，是数据类型驱动拆分
- * @author wanghao
+
  * @version v1.0
  * @create Data 2013-1-7
  * 
@@ -230,12 +230,12 @@ public class DataDrivenDBInputFormat<T extends DBWritable> extends DBInputFormat
 
 	/**
 	 * 
-	 * Copyrights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
-	 * reserved.
+
+
 	 * 
-	 * @Project tydic hadoop
+
 	 * @Comments A InputSplit that spans a set of rows
-	 * @author wanghao
+
 	 * @version v1.0
 	 * @create Data 2013-1-8
 	 * 

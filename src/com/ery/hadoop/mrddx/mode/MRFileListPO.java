@@ -2,7 +2,7 @@ package com.ery.hadoop.mrddx.mode;
 
 /**
  * 文件列表对象
- * @author wanghao
+
  *
  */
 public class MRFileListPO {

@@ -30,11 +30,11 @@ import com.ery.hadoop.mrddx.util.StringUtil;
 import com.ery.hadoop.mrddx.vertica.VerticaOutputFormat;
 
 /**
- * Copyrights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights reserved.
+
  * 
- * @Project tydic hadoop
+
  * @Comments 输出到数据库的格式定义.
- * @author wanghao
+
  * @version v1.0
  * @create Data 2013-1-7
  * 

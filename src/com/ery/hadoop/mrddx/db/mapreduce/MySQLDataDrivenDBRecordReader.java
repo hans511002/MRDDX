@@ -14,11 +14,11 @@ import com.ery.hadoop.mrddx.db.DBInputFormat;
 
 /**
  * 
- * Copyrights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights reserved.
+
  * 
- * @Project tydic hadoop
+
  * @Comments 针对MYSQL的数据类型驱动(Data-Driver)拆分RecordReader实现类
- * @author wanghao
+
  * @version v1.0
  * @create Data 2013-1-9
  * 

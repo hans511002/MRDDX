@@ -16,7 +16,7 @@
 package com.ery.hadoop.mrddx.util;
 
 /**
- * @author xianmao.hexm 2011-1-30 上午10:55:14
+
  */
 public final class IntegerUtil {
 

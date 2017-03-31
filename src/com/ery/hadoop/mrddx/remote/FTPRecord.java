@@ -10,10 +10,10 @@ import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.io.WritableComparable;
 
 /**
- * Mapper,Reducer输出格式 Copyrights @ 2012,Tianyuan DIC Information Co.,Ltd. All
- * rights reserved.
+
+
  * 
- * @author wanghao
+
  * @version v1.0
  * @create Data 2013-1-9
  */

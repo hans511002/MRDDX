@@ -16,6 +16,7 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.JobPriority;
 import org.apache.zookeeper.KeeperException;
 
+import com.ery.base.support.log4j.LogUtils;
 import com.ery.hadoop.mrddx.DBGroupReducer;
 import com.ery.hadoop.mrddx.DataTypeConstant;
 import com.ery.hadoop.mrddx.IHandleFormat;
@@ -32,15 +33,14 @@ import com.ery.hadoop.mrddx.zk.IMRZooKeeper;
 import com.ery.hadoop.mrddx.zk.MRFileZookeeper;
 import com.ery.hadoop.mrddx.zk.MRZooKeeper;
 import com.ery.hadoop.mrddx.zk.ZKUtil;
-import com.ery.base.support.log4j.LogUtils;
 
 /**
  * 
  * 提供给客户调用的服务类
  * 
- * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
- *             reserved.
- * @author wanghao
+ * 
+ * 
+ * 
  * @createDate 2013-2-5
  * @version v1.0
  */

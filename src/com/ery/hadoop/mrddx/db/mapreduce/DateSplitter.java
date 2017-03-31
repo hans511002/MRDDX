@@ -17,12 +17,12 @@ import org.apache.hadoop.mapreduce.InputSplit;
 import com.ery.hadoop.mrddx.MRConfiguration;
 
 /**
- * Copyrights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights reserved.
+
  * 
- * @Project tydic hadoop
+
  * @Comments 实现 DBSplitter接口的Date-point类. 处理数据类型：java.sql.Types
  *           (DATE,TIME,TIMESTAMP)
- * @author wanghao
+
  * @version v1.0
  * @create Data 2013-1-9
  * 

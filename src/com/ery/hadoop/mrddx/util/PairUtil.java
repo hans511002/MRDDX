@@ -16,7 +16,7 @@
 package com.ery.hadoop.mrddx.util;
 
 /**
- * @author <a href="mailto:shuo.qius@alibaba-inc.com">QIU Shuo</a>
+
  */
 public final class PairUtil {
 	private static final int DEFAULT_INDEX = -1;

@@ -20,7 +20,7 @@ import com.ery.hadoop.mrddx.DBRecord;
 import com.ery.hadoop.mrddx.log.MRLog;
 
 /**
- * @author wanghao
+
  * 
  */
 public class RCFileParse extends AbstractFileParse {

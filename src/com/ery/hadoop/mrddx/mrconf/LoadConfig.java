@@ -17,9 +17,9 @@ import com.ery.hadoop.mrddx.log.MRLog;
 /**
  * 加载除HADOOP JOB之外的资源文件
  * 
- * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
- *             reserved.
- * @author wanghao
+
+
+
  * @createDate 2013-2-1
  * @version v1.0
  */

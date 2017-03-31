@@ -41,11 +41,11 @@ import com.ery.hadoop.mrddx.vertica.VerticaInputFormat;
 import com.ery.hadoop.mrddx.vertica.VerticaRecordReader;
 
 /**
- * Copyrights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights reserved.
+
  * 
- * @Project tydic hadoop
+
  * @Comments 从数据库读取数据的输入格式对象，是按照LIMIT和OFFSET进行拆分行数据的.
- * @author wanghao
+
  * @version v1.0
  * @create Data 2013-1-7
  * 
@@ -324,12 +324,12 @@ public class DBInputFormat<T extends DBWritable> extends InputFormat<LongWritabl
 
 	/**
 	 * 
-	 * Copyrights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
-	 * reserved.
+
+
 	 * 
-	 * @Project tydic hadoop
+
 	 * @Comments A InputSplit that spans a set of rows
-	 * @author wanghao
+
 	 * @version v1.0
 	 * @create Data 2013-1-7
 	 * 
@@ -406,12 +406,12 @@ public class DBInputFormat<T extends DBWritable> extends InputFormat<LongWritabl
 
 	/**
 	 * 
-	 * Copyrights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
-	 * reserved.
+
+
 	 * 
-	 * @Project tydic hadoop
+
 	 * @Comments A Class that does nothing, implementing DBWritable
-	 * @author wanghao
+
 	 * @version v1.0
 	 * @create Data 2013-1-7
 	 * 

@@ -9,12 +9,12 @@ import java.sql.SQLException;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.mapreduce.InputSplit;
 
+import com.ery.base.support.log4j.LogUtils;
 import com.ery.hadoop.mrddx.db.DBConfiguration;
 import com.ery.hadoop.mrddx.db.DBInputFormat;
 import com.ery.hadoop.mrddx.db.DBRecordReader;
 import com.ery.hadoop.mrddx.db.mapreduce.DBWritable;
 import com.ery.hadoop.mrddx.log.MRLog;
-import com.ery.base.support.log4j.LogUtils;
 
 public class RDBRecordReader<T extends DBWritable> extends DBRecordReader<T> {
 

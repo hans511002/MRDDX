@@ -26,9 +26,9 @@ import com.ery.hadoop.mrddx.log.MRLog;
 import com.ery.hadoop.mrddx.util.HDFSUtils;
 
 /**
- * Copyrights @ 2012,Tianyuan DIC Information Co.,Ltd. All rights reserved.<br>
+
  * 
- * @author wanghao
+
  * @description
  * @date 2012-11-15
  */

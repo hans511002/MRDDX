@@ -34,9 +34,9 @@ import com.ery.base.support.sys.DataSourceManager;
 /**
  * 请求job客户的对象
  * 
- * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
- *             reserved.
- * @author wanghao
+
+
+
  * @createDate 2013-1-17
  * @version v1.0
  */

@@ -19,9 +19,9 @@ import com.ery.hadoop.mrddx.util.RuleConvert;
 /**
  * 实现MR的高级应用接口类，处理运算:+ - * / ; 结果为浮点类型 语法规则：({a}+1)/2-5+{b}*3+{b}%2={c}
  * 
- * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
- *             reserved.
- * @author wanghao
+
+
+
  * @createDate 2013-2-18
  * @version v1.0
  */

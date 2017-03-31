@@ -17,12 +17,12 @@ import com.ery.hadoop.mrddx.MRConfiguration;
 import com.ery.hadoop.mrddx.log.MRLog;
 
 /**
- * Copyrights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights reserved.
+
  * 
- * @Project tydic hadoop
+
  * @Comments 实现 DBSplitter接口的BigDecimal类.
  *           处理数据类型：java.sql.Types.NUMERIC，java.sql.Types.DECIMAL
- * @author wanghao
+
  * @version v1.0
  * @create Data 2013-1-9
  */

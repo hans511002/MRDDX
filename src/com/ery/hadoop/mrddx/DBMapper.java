@@ -29,10 +29,9 @@ import com.ery.hadoop.mrddx.zk.MRWatcher;
 import com.ery.hadoop.mrddx.zk.MonitorZKNode;
 
 /**
- * 处理value为DBRecord的Mapper Copyrights @ 2012,Tianyuan DIC Information Co.,Ltd.
+ * 
  * All rights reserved.
  * 
- * @author wanghao
  * @version v1.0
  * @create Data 2013-1-9
  */

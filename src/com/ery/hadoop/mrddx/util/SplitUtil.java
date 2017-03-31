@@ -19,7 +19,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @author xianmao.hexm 2012-5-31
+
  */
 public class SplitUtil {
     private static final String[] EMPTY_STRING_ARRAY = new String[0];

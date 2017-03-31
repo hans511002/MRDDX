@@ -18,7 +18,7 @@ package com.ery.hadoop.mrddx.util;
 /**
  * 格式化工具
  * 
- * @author xianmao.hexm
+
  * @version 2008-11-24 下午12:58:17
  */
 public final class FormatUtil {

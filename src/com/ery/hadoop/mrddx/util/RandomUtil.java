@@ -16,7 +16,7 @@
 package com.ery.hadoop.mrddx.util;
 
 /**
- * @author xianmao.hexm 2010-1-21 上午10:39:54
+
  */
 public class RandomUtil {
     private static final byte[] bytes = { '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', 'q', 'w', 'e', 'r', 't',

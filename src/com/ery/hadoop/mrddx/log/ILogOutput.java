@@ -8,9 +8,9 @@ import com.ery.hadoop.mrddx.remote.FTPLogPO;
 /**
  * 输出日志接口
  * 
- * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
- *             reserved.
- * @author wanghao
+
+
+
  * @createDate 2013-2-4
  * @version v1.0
  */

@@ -10,9 +10,9 @@ import org.apache.hadoop.classification.InterfaceStability;
  * of logic from DateSplitter, since this just needs to use some Oracle-specific
  * functions on the formatting end when generating InputSplits.
  * 
- * @copyRights @ 2012-2013,Tianyuan DIC Information Co.,Ltd. All rights
- *             reserved.
- * @author wanghao
+
+
+
  * @createDate 2013-2-21
  * @version v1.0
  */
